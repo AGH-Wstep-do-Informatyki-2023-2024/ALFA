@@ -1,1 +1,2 @@
 # ALFA
+Projekt gry Alfa
