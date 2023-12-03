@@ -6,4 +6,5 @@ Projekt gry Alfa
 
 ```python
 print('boom')
+print('Boooooooooooom!')
 ```
