@@ -1,0 +1,8 @@
+main.py
+W tej głównej funkcji gry dla Snake, pętla główna utrzymuje działanie programu, reagując na zdarzenia takie jak zamknięcie okna czy ruch węża. Obsługa klawiatury umożliwia graczowi sterowanie wężem, zmieniając kierunek w zależności od naciśniętego klawisza. W każdym kroku pętli, wąż porusza się zgodnie z aktualnym kierunkiem. Ekran jest regularnie odświeżany, co obejmuje wypełnianie go czarnym kolorem, rysowanie jabłka i węża. Kontrola czasu jest zapewniana przez ustawienie stałego interwału czasowego między kolejnymi klatkami, co reguluje tempo gry. W sumie, ta funkcja stanowi integralną część gry, zarządzając logiką, interakcją z graczem i wyświetlaniem na ekranie.
+
+Snake.py
+W tej klasie Snake, konstruktor __init__ inicjalizuje węża, ustawiając jego początkową pozycję, ciało i kierunek. Metoda draw odpowiada za rysowanie każdej części ciała węża na ekranie w postaci prostokątów o kolorze zielonym. Natomiast metoda move jest odpowiedzialna za przemieszczanie węża, przesuwając każdą część ciała o jedną pozycję wzdłuż obecnego kierunku. Ta klasa stanowi kluczowy element gry, kontrolując wygląd i ruch węża, który jest istotnym aspektem jej mechaniki.
+
+Apple.py
+W tej klasie Apple, konstruktor __init__ inicjalizuje jabłko, ustawiając jego pozycję na losową pozycję na planszy, a metoda draw rysuje jabłko na ekranie w postaci prostokąta o kolorze czerwonym. Klasa Apple pełni istotną rolę w grze, dostarczając elementu, który gracz może zbierać, zwiększając długość węża i wpływając na przebieg rozgrywki.
